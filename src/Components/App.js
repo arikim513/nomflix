@@ -1,6 +1,6 @@
 import React from "react";
 import Router from "./Router";
-import Header from "./Header";
+import Header from "./Header/Header";
 
 function App() {
   return (
