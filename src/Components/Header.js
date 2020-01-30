@@ -1,9 +1,17 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styled from "styled-components";
+
+const List = styled.ul`
+  display: flex;
+  justify-content: space-between;
+  & li:hover {
+    color: palevioletred;
+  }
+`;
 
 export default () => (
   <header>
-    <ul className={styles.navList}>
+    <List>
       <li>
         <a href="/">Movies</a>
       </li>
@@ -13,6 +21,6 @@ export default () => (
       <li>
         <a href="/search">Search</a>
       </li>
-    </ul>
+    </List>
   </header>
 );

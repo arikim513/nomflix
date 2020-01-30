@@ -1,8 +1,0 @@
-.navList {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navList li:hover {
-  color: palevioletred;
-}
